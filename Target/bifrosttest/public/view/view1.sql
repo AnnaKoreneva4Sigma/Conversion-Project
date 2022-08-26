@@ -1,0 +1,6 @@
+create or replace view BIFROSTTEST.PUBLIC.VIEW1(
+	COL1,
+	COL2
+) as
+SELECT * FROM
+    PUBLIC.TABLE1;
